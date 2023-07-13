@@ -1,0 +1,284 @@
+/* ------------------------header-------------------------- */
+body {
+    background-image: url(../assets/background.svg);
+    background-repeat: no-repeat;
+}
+
+.header {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 63px;
+}
+
+.menu {
+    flex-grow: 1;
+}
+
+.menu ul {
+    display: flex;
+    flex-flow: row nowrap;
+
+    list-style: none;
+    color: #000;
+    font-family: Mulish;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: -0.88px;
+}
+
+.menu li {
+    margin-right: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.menu a {
+    color: #000;
+    text-decoration: none;
+}
+
+.logo a {
+    color: #000;
+    text-decoration: none;
+}
+
+.logo {
+    font-family: Mulish;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: -0.88px;
+    margin-left: 130px;
+    margin-right: 130;
+    margin-right: 384px;
+    color: #000;
+    text-decoration: none;
+}
+
+#connect_us {
+    flex-direction: column;
+    display: flex;
+    float: right;
+    width: 196px;
+    height: 52px;
+    border-radius: 10px;
+    background-color: #6A37F6;
+    color: var(--white, #FFF);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    letter-spacing: -0.72px;
+    margin-right: 130px;
+    text-align: center;
+    justify-content: center;
+}
+
+/* ----------------------main------------------------------ */
+.head {
+    width: 554px;
+    height: 780px;
+    float: right;
+    margin-right: 95px;
+    margin-top: -240px;
+}
+
+.maintext {
+    width: 680px;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: var(--black, #000);
+    font-family: Inter;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+    letter-spacing: -4.8px;
+    margin-top: 306px;
+    margin-left: 130px;
+}
+
+.undermaintext {
+    display: flex;
+    width: 540px;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: var(--black, #000);
+    font-family: Mulish;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    margin-top: 30px;
+    margin-left: 130px;
+}
+
+#undermainbutton {
+    margin-top: 70px;
+    margin-left: 130px;
+    background-color: #6A37F6;
+    width: 253px;
+    height: 52px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    color: var(--white, #FFF);
+    font-family: Mulish;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    letter-spacing: -0.72px;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+/* -----------------------------about us ------------------------ */
+
+.slidertext {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 130px;
+    margin-top: 70px;
+}
+
+.colorfulblock {
+    float: left;
+    background-image: url(../assets/Ellipse\ 2.svg);
+    background-color: #000;
+}
+
+.white_text {
+    color: var(--white, #FFF);
+    font-family: Mulish;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 120%;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.gradient_text {
+    background: linear-gradient(#BDA5FF, #6A37F6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    /* color: #FFF; */
+    font-family: Inter;
+    font-size: 150px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+    letter-spacing: -9px;
+    margin-left: 300px;
+    margin-right: 30px;
+    margin-top: 75px;
+}
+
+#firstslider {
+    width: 540px;
+    height: 300px;
+    border-radius: 20px;
+    margin-right: 20px;
+}
+
+#secondslider {
+    width: 540px;
+    height: 300px;
+    border-radius: 20px;
+    margin-right: 20px;
+}
+
+#thirdslider {
+    width: 540px;
+    height: 300px;
+    border-radius: 20px;
+}
+
+#bigblock {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 300px;
+    background-image: url(../assets/Ellipse\ 2.svg);
+    background-repeat: no-repeat;
+    background-color: #000;
+    width: 1660px;
+    height: 520px;
+    border-radius: 20px;
+    margin-left: 130px;
+}
+
+.bodyblock {
+    display: flex;
+    width: 650px;
+    flex-direction: column;
+    flex-shrink: 0;
+    margin-left: 80px;
+    margin-bottom: 248px;
+}
+
+#what {
+    color: var(--white, #FFF);
+    font-family: Inter;
+    font-size: 80px;
+    font-style: italic;
+    font-weight: 800;
+    line-height: 120%;
+    letter-spacing: -4.8px;
+    margin-top: 80px;
+}
+
+#we_propose {
+
+    color: var(--white, #FFF);
+    font-family: Inter;
+    font-size: 80px;
+    font-weight: 600;
+    line-height: 120%;
+    letter-spacing: -4.8px;
+}
+
+.big_text {
+    color: var(--white, #FFF);
+    font-family: Mulish;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    display: flex;
+    width: 800px;
+    flex-direction: column;
+    flex-shrink: 0;
+    margin-top: 102px;
+}
+
+#start_with_us {
+    width: 253px;
+    height: 52px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: var(--accent, #6A37F6);
+    color: var(--white, #FFF);
+    font-family: Mulish;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    letter-spacing: -0.72px;
+    margin-top: 68px;
+    text-align: center;
+    justify-content: center;
+}
